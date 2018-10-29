@@ -1,0 +1,48 @@
+body {background-color: #70bdc1;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;}
+
+.page {
+    width: 860px;
+    margin: 0 auto;
+    display: grid;
+    background-color: white;
+    box-shadow: 5px 5px 10px Grey;
+    grid-template-columns: 400px 400px ;/*1fr c'est la largeur d'une colonne, ici on en définit 2*/
+    grid-auto-rows: 200px auto;/*Les cases de la grille font 200px de haut, auto adapte la case si le contenu dépasse*/
+    grid-row-gap: 2em;
+    grid-column-gap: 3em;
+    padding: 50px;
+    margin-bottom: 100px;
+    }
+
+.photo {
+    margin: 0 auto;
+    }
+.info {text-align: center;
+    line-height: 2em;}
+
+img {width: 350px;}
+
+
+h2 {text-transform: uppercase;}
+
+span {color: #70bdc1;
+    font-weight: bolder;
+    text-decoration: underline;}
+
+.info h1, .formation h2, .competence h2, .experience h2, .informatique h2, .langue h2, .hobby h2 {
+    border-radius: 15px 15px 0px 15px;
+    padding: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;}
+
+
+.experience h2 {background-color: #fab792;}
+.formation h2 {background-color: #70bdc1;}
+.competence h2 {background-color: #ffd57c;}
+.informatique h2 {background-color: #9adf80; }
+.langue h2 {background-color: #8d94c9;}
+.hobby h2, .info h1 {background-color: #c0bfbf;}
+
